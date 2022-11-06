@@ -1,0 +1,42 @@
+* {
+  font-family: Arial, sans-serif, monospace;
+  font-size: 8vh;
+  text-shadow: 0 0 3vh;
+  text-align: center;
+}
+body {
+  background: url('piece_of_mind___iron_maiden___wallpaper_by_lloydgrasm3_denolzu-fullview.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+button {
+  background: linear-gradient(60deg, rgb(100, 0, 214), rgb(0, 0, 0));
+  border: 0.5vw solid black;
+  width: 10vw;
+  height: 10vw;
+  margin: 0 15%;
+  color: black;
+  border-radius: 100%;
+ 
+}
+.disabled-button {
+  background: gray;
+  border: 0.5vw solid black;
+  color: black;
+}
+.active-button {
+  transition: opacity 0.3s;
+}
+.active-button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+.active-button:active {
+  opacity: 0.8;
+}
+@media (orientation: portrait) {
+  button {
+    width: 20vw;
+    height: 20vw;
+    margin: 0;
+  }
+}

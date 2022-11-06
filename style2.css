@@ -1,0 +1,17 @@
+.aboutme {
+  font-family: monospace, Arial, sans-serif;
+  color: rgb(140, 0, 255);
+}
+.about {
+  color: rgb(183, 0, 255);
+  text-shadow: 2px 2px black, -2px -2px black, 0 0 black;
+}
+.left-button {
+  background: linear-gradient(60deg, rgb(100, 0, 214), rgb(0, 0, 0));
+}
+.nosteal {
+  -moz-text-size-adjust: 0%;
+  color: rgb(144, 185, 238);
+  margin-bottom: 9%;
+  text-shadow: 2px 2px rgb(140, 0, 255), -2px -2px black, 0 0 black;
+}

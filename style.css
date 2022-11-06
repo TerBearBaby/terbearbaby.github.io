@@ -1,0 +1,47 @@
+.aboutme {
+  font-family: monospace, Arial, sans-serif;
+  color: rgb(140, 0, 255);
+}
+.logo {
+  width: 42%;
+  margin-left: 30%;
+  top: 0;
+  position: absolute;
+  animation: walk 1s ease-in-out infinite alternate;
+}
+.introduction {
+  color: rgb(144, 185, 238);
+  margin-bottom: 9%;
+  text-shadow: 2px 2px rgb(140, 0, 255), -2px -2px black, 0 0 black;
+}
+@keyframes walk {
+  0% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}
+@media (orientation: landscape) {
+  main {
+    display: grid;
+    align-items: center;
+    grid-template-columns: [introduction-start navigation-start] 1fr [introduction-end logo-start] 1fr [logo-end navigation-end];
+    grid-template-rows: [introduction-start logo-start] 3fr [introduction-end logo-end navigation-start] 1fr [navigation-end];
+  }
+  .logo {
+    grid-area: logo;
+  }
+  .introduction {
+    grid-area: introduction;
+  }
+  .navigation {
+    grid-area: navigation;
+  }
+}
+  .nosteal {
+    -moz-text-size-adjust: 0%;
+    color: rgb(144, 185, 238);
+    margin-bottom: 9%;
+    text-shadow: 2px 2px rgb(140, 0, 255), -2px -2px black, 0 0 black;
+  }
