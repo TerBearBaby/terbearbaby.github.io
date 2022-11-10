@@ -3,6 +3,7 @@
   color: rgb(140, 0, 255);
 }
 .logo {
+  width: device-width;
   width: 42%;
   margin-left: 30%;
   top: 0;
