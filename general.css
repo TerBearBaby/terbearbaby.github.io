@@ -7,6 +7,7 @@
 body {
   background: url('piece_of_mind___iron_maiden___wallpaper_by_lloydgrasm3_denolzu-fullview.jpg') no-repeat center fixed;
   background-size: cover;
+  width: device-width;
 }
 button {
   background: linear-gradient(60deg, rgb(100, 0, 214), rgb(0, 0, 0));
