@@ -15,3 +15,7 @@
   margin-bottom: 9%;
   text-shadow: 2px 2px rgb(140, 0, 255), -2px -2px black, 0 0 black;
 }
+.imagesize {
+  width: 206px;
+  height: 201px;
+} 
